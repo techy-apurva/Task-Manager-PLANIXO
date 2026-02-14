@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="signup">
+    <div class="signup2">
+        <h1 class="sign-heading1">Welcome to Planixo!</h1>
+<h4 class="sign-heading2">Sign up and start your journey.</h4>
+
+<form class="signup3" id="signupForm">
+        <div class="signup3">
+        <input type="text" class="email" placeholder="Enter email">
+        <small class="error" id="emailError"></small>
+
+        <div class="password-box">
+  <input type="password"
+         class="password"
+         id="signupPassword"
+         placeholder="Enter Password">
+
+  <span class="toggle-eye" onclick="toggleSignupPassword()">👁️</span>
+</div>
+
+        <small class="error" id="passwordError"></small>
+
+        <button type="submit">Create account</button>
+        </div>
+</form>
+        <div class="signin">Already have an account?<a href="../login/login.html">Log in</a></div>
+    </div>
+    </div>
+
+
+    <script src="signup.js"></script>
+
+</body>
+</html>

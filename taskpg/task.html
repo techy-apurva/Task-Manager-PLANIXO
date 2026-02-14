@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-title">
+        <img class="logo" src="../img/final-logo.png">
+        <h1 class="title">Planixo</h1>
+        </div>
+        
+        <div class="nav-class">
+        <ul class="nav-links"> 
+        
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="#mytasks">Tasks</a></li>
+            <li><a href="#analytics">Analytics</a></li>
+            <li><a href="#">Contact</a></li>
+
+    <div class="profile-menu">
+
+ 
+   <div class="profile-icon" id="profileIcon">A</div>
+
+ 
+<div class="profile-dropdown" id="profileDropdown">
+<div class="dropdown-item">👤 My Profile</div>
+<div class="dropdown-divider"></div>
+<div class="dropdown-item" id="settingsBtn">⚙️ Settings</div>
+<div class="dropdown-item" id="helpBtn">❓ Help</div>
+<div class="dropdown-divider"></div>
+<div class="dropdown-item logout-item" id="logoutBtn">🚪 Logout</div>
+</div>
+
+
+</ul>
+</div>
+</div>
+</div>
+    
+    <div class="task-pg">
+    <div class="task-left" id="taskleft">
+        <button class="newtask">+ New Task</button>
+        <ul class="task-left-list">
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#mytasks">Tasks</a></li>
+        <li><a href="#insight">Insights</a></li>
+        <li><a href="#calendar">Calendar</a></li>
+        <li><a href="#analytics">Analytics</a></li>
+        </ul>
+    </div>
+
+
+<div class="emptyStateOuter">
+<div id="emptyState" class="empty-state">
+<h2>Let’s start your journey 🚀</h2>
+
+  <p>Create your first task to begin organizing your day.</p>
+  <button class="empty-btn">+ Create your first task</button>
+</div>
+</div> 
+
+    <div id="taskright">
+    <div class="task-right">
+        <h1 class="gm"></h1>
+        <p class="subtitle-gm"> You have 6 tasks pending and 2 meetings today.  </p> 
+
+        
+        <div class="div-hor" id="div">
+            <div class="hor1">
+                <p class="head">
+                    Total Tasks
+                </p>
+                <p class="count">127</p>
+                <p class="update">+12% from last week</p>
+            </div>
+            <div class="hor2">
+                <p class="head">
+                    Completed
+                </p>
+                <p class="count">89</p>
+                <p class="update">+8% from last week</p>
+            </div>
+            <div class="hor3">
+                <p class="head">
+                    in Progress
+                </p>
+                <p class="count">23</p>
+                <p class="update">+3% from last week</p>
+            </div>
+            <div class="hor4">
+                <p class="head">
+                    Overdue
+                </p>
+                <p class="count">5</p>
+                <p class="update">-2% from last week</p>
+            </div>
+        </div>
+
+<div class="right-task2">
+<ul class="checklist" id="mytasks">
+    <li>
+        <label>
+            <div class="div-ver" id="projects">
+            <h1 class="Recent-task">Recent Tasks</h1>
+        </div>
+        </label>
+    </li>
+</ul> 
+
+
+<div class="ai-insights" id="insight">
+   <h3 class="card-title">AI Insights</h3>
+
+   <div class="insight-blue">
+    <div class="icon">💡</div>
+    <p id="insight1"></p>
+   </div>
+    
+   <div class="insight-green">
+    <div class="icon">✔</div>
+    <p id="insight2"></p>
+   </div>
+    
+   <div class="insight-orange">
+  <div class="icon">⏳</div>
+  <p id="insight3"></p>
+</div></div></div>
+
+
+<div class="analytics-card" id="analytics">
+  <h3>Task Analytics</h3>
+  <canvas id="taskChart"></canvas>
+</div></div></div> </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="task.js"></script>
+</body>
+</html>

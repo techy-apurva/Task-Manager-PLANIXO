@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <h1 class="title">Welcome Back!</h1>
+        <h4 class="subtitle">Login to Planixo and continue</h4>
+     
+        <form id="loginForm">
+            <div class="loginForm2">
+        <input type="text" class="login-email" placeholder="Enter email">
+          <small class="login-error" id="loginEmailError"></small>
+
+
+        <div class="password-box">
+  <input type="password" 
+         class="login-password" 
+         id="loginPassword"
+         placeholder="Enter password">
+
+  <span class="toggle-eye" onclick="togglePassword()">👁️</span>
+</div>
+
+        <small class="login-error" id="loginPasswordError"></small>
+
+        <button type="submit" class="login-btn">Log In</button>
+        </div>
+</form>
+
+<div>
+
+<div class="login-footer">
+ Don’t have an account?
+      <a href="signup/signup.html">Sign up</a>
+    </div>
+    
+
+
+
+  </div>
+</div>
+    <script src="login.js"></script>
+
+</body>
+</html>
